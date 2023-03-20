@@ -86,7 +86,7 @@ public class Main {
                     inversionCount++;
             }
         }
-        //System.out.println(inversionCount);
+        System.out.println(inversionCount);
         int blankRowFromLast = (k - 1) - blankRow + 1;
         if (k % 2 == 0) {
             return (inversionCount % 2 == 0 && blankRowFromLast % 2 != 0) || (inversionCount % 2 != 0 && blankRowFromLast % 2 == 0);
